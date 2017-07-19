@@ -52,8 +52,8 @@ section {
 table {
     border-collapse: collapse;
 }
-table, td {
-   border: 1px solid #1fabe5;
+table, td, tr {
+   border: 1px solid #046c97;
 }
 /* table header background */
 
@@ -62,8 +62,9 @@ td {
     vertical-align:middle;
   }
 thead {
+    color: #eeeeee;
     background-color: #1fabe5;
-    text-align:left;
+    text-align: left;
   }
 td:nth-of-type(1) {
   width: 20%;
@@ -100,7 +101,10 @@ form {
   background-color: #ff8523;
   padding:10px;
 }
-
+.city_container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 #submit_button {
   background-color: #1fabe5;
   padding:5px;
