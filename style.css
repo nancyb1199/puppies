@@ -12,10 +12,96 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
-#site_header {
-  background-color: #ff8523
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
 }
 
-h2 {
+#site_header {
+  background-color: #ff8523;
+  padding:10px;
+}
+
+#main_navigation {}
+
+nav>a[href] {
+  color: #eeeeee;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: thin;
+  text-decoration: none;
+  font-size: 0.8em;
+  padding: 2px;
+}
+
+/* Set the headers to pretty blue */
+
+h2, h3 {
   color: #1fabe5
+}
+
+/* This makes the horizontal gray lines */
+
+section {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+}
+
+/* table borders */
+table {
+    border-collapse: collapse;
+}
+table, td {
+   border: 1px solid #1fabe5;
+}
+/* table header background */
+
+td {
+    text-align:center;
+    vertical-align:middle;
+  }
+thead {
+    background-color: #1fabe5;
+    text-align:left;
+  }
+td:nth-of-type(1) {
+  width: 20%;
+  height: 30px;
+}
+td:nth-of-type(2) {
+  width: 5%;
+  height: 30px;
+}
+td:nth-of-type(3) {
+  width: 10%;
+  height: 30px;
+}
+td:nth-of-type(4) {
+  width: 10%;
+  height: 30px;
+}
+td:nth-of-type(5) {
+  width: 30%;
+  height: 30px;
+}
+td>img {
+width: 50%;
+height: auto;
+}
+
+form {
+  background-color: #dddddd;
+  padding:15px;
+}
+
+.name {
+  color: #eeeeee;
+  background-color: #ff8523;
+  padding:10px;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  padding:5px;
 }
