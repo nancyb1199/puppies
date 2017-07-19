@@ -21,9 +21,12 @@ body {
   background-color: #ff8523;
   padding:10px;
 }
+/*This is to set the color of the link in the text */
+a {
+  color: #1fabe5;
+}
 
-#main_navigation {}
-
+/* This sets up the "button" links */
 nav>a[href] {
   color: #eeeeee;
   border-style: solid;
@@ -77,11 +80,11 @@ td:nth-of-type(2) {
   height: 30px;
 }
 td:nth-of-type(3) {
-  width: 10%;
+  width: 8%;
   height: 30px;
 }
 td:nth-of-type(4) {
-  width: 10%;
+  width: 8%;
   height: 30px;
 }
 td:nth-of-type(5) {
@@ -89,10 +92,9 @@ td:nth-of-type(5) {
   height: 30px;
 }
 td>img {
-width: 50%;
+width: 70%;
 height: auto;
 }
-
 form {
   background-color: #eeeeee;
   padding:15px;
