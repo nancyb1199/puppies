@@ -30,8 +30,8 @@ nav>a[href] {
   border-radius: 3px;
   border-width: thin;
   text-decoration: none;
-  font-size: 0.8em;
-  padding: 2px;
+  font-size: 0.5em;
+  padding: 5px;
 }
 
 /* Set the headers to pretty blue */
@@ -46,6 +46,7 @@ section {
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-bottom-color: #dddddd;
+  padding-bottom: 20px;
 }
 
 /* table borders */
@@ -58,13 +59,14 @@ table, td, tr {
 /* table header background */
 
 td {
-    text-align:center;
+    text-align:left;
     vertical-align:middle;
+    font-size: 0.6em;
+    padding-left: 5px;
   }
 thead {
     color: #eeeeee;
     background-color: #1fabe5;
-    text-align: left;
   }
 td:nth-of-type(1) {
   width: 20%;
@@ -92,7 +94,7 @@ height: auto;
 }
 
 form {
-  background-color: #dddddd;
+  background-color: #eeeeee;
   padding:15px;
 }
 
@@ -100,6 +102,7 @@ form {
   color: #eeeeee;
   background-color: #ff8523;
   padding:10px;
+  border-radius: 3px;
 }
 .city_container {
   padding-top: 15px;
@@ -107,5 +110,8 @@ form {
 }
 #submit_button {
   background-color: #1fabe5;
-  padding:5px;
+  color: #eeeeee;
+  padding:7px;
+  border: none;
+  border-radius: 3px;
 }
