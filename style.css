@@ -12,6 +12,10 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+#site_header {
+  background-color: #ff8523
+}
+
 h2 {
   color: #1fabe5
 }
